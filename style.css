@@ -3,7 +3,8 @@ body {
     margin: 0;
 }
 .top-area {
-    background-image: url(images/donation4.jpg);
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
 }
 .top-content {
     width: 70%;
@@ -26,4 +27,58 @@ body {
     padding-top: 10px;
     padding-bottom: 30px;
     font-weight: 100;
+}.button-area {
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 7px;
+    box-shadow: 1px 5px 25px rgb(70, 63, 63)
+}
+.donation {
+    padding: 100px 0;
+    text-align: center;
+}
+.donation h1 {
+    font-size: 60px;
+    margin: 11px 0;
+    text-align: center;
+}
+.donation p {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.amount-taka {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    padding: 50px 0;
+}
+.amount {
+    background-color: rgb(251, 234, 234);
+    width: 20%;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+.amount h2 {
+    text-align: center;
+    padding: 7px;
+    font-size: 30px;
+    color: rgb(102, 96, 96);
+}
+#same-donation {
+    background-color: rgb(233, 183, 176);
+    border: 3px solid rgb(194, 67, 45);
+}
+#same-donation h2 {
+    color: rgb(200, 66, 43);
+}
+#input-tk {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(186, 186, 186);
+    margin: 0 auto;
+    padding: 7px 300px;
+    border: none;
+    display: block;
 }
