@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.top-area {
+    background-image: url(images/donation4.jpg);
+}
+.top-content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 200px 0;
+    text-align: center;
+}
+.top-content h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+.top-content p {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
