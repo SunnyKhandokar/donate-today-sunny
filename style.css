@@ -74,13 +74,13 @@ body {
 #same-donation h2 {
     color: rgb(200, 66, 43);
 }
-#input-tk {
+#input-taka {
     font-size: 20px;
-    border-bottom: 3px solid rgb(74, 64, 64);
+    border: none;
+    border-bottom: 2px solid rgb(186, 186, 186);
+    display: block;
     margin: 0 auto;
     padding: 7px 300px;
-    border: none;
-    display: block;
 }
 #donate-now {
     margin: 40px 0;
@@ -90,16 +90,65 @@ body {
     border-radius: 7px;
     padding: 12px 30px;
     text-decoration: none;
-}.plan-side {
+    color: white;
+}
+.plan-area {
     display: flex;
     padding: 50px 0;
 }
 
-#blue-bg {
+#food-family {
     background-color: rgb(225, 225, 252);
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+    font-size: 30px;
 }
-
-.example {
+#shelter-family{
+    background-color: antiquewhite;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+    padding-left: 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 30px;
+}
+#education-family{
+    background-color: rgb(183, 247, 247);
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+    padding-left: 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 30px;
+}
+.flexible-container{
+    position: center;
+}
+.plan-area{
+    position: center;
+}
+.donate-plan-side{
+    padding-left: 435px;
+}
+#our-plan{
+    padding-right: 490px;
+}
+.example-plan {
     width: 26%;
     margin-left: 3%;
     background-color: rgb(254, 234, 231);
@@ -117,6 +166,9 @@ body {
     text-align: center;
     width: 50%;
     margin: 0 auto;
+}
+p {
+    color: rgb(144, 144, 144)
 }
 .contribute {
     display: flex;
@@ -146,6 +198,8 @@ body {
     border-radius: 7px;
     padding: 12px 30px;
     text-decoration: none;
+    color: white;
+    font-size: 17px;
 }.update {
     text-align: center;
     padding: 100px 0;
@@ -159,13 +213,15 @@ body {
     padding: 70px 0;
     width: 70%;
     margin: 60px auto;
+    border-radius: 7px;
 }
+
 .email input {
     font-size: 17px;
     padding: 12px 20px;
     background-color: rgb(245, 206, 206);
     border: none;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px;
 }
 .email button {
     font-size: 17px;
@@ -178,14 +234,18 @@ body {
 }
 footer {
     text-align: center;
-    background-color: black;
+    background-color: rgb(15, 2, 32);
     padding: 50px 0;
+    border-radius: 7px;
 }
 footer h2 {
     color: rgb(248, 7, 47);
     margin: 0;
+    font-style: oblique;
+    font-size: 40px;
 }
 footer p {
     margin: 0;
     font-size: 15px;
+    color: white;
 }
